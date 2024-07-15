@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap");
+:root {
+  --font: "Darker Grotesque", sans-serif;
+  --primary: #ace1af;
+  --original: #1d360a;
+  --white: #fff;
+  --black: #000;
+}
+.hero-right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.hero-left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-left-container h1 {
+  color: var(--original);
+  font-size: 50px;
+  font-family: var(--font);
+}
+.hero-left-container p {
+  color: var(--black);
+}
+.hero-left-container button {
+  background-color: var(--primary);
+  width: 50%;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: var(--font);
+  transition: 0.10s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.hero-left-container button:hover {
+  opacity: 0.5;
+}
